@@ -1,0 +1,11 @@
+#logging:
+#  pattern:
+#    # 输出到控制台
+#    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %msg - %logger{15}%n\'
+#  level:
+#    root: info # 全局用info
+#    # 只有在com.itheima包下才输出debug信息
+#    com:
+#      itheima: debug
+#  #保存日志到以下文件
+#  file: d:/mylog
